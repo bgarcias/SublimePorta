@@ -1,0 +1,42 @@
+/* Shortcuts */
+
+@media (max-width: 700px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+}
+
+.pd-0{
+	padding: 0%;
+}
+.pt-5{
+    padding-top: 5%;
+}
+
+.mb-2{
+    margin-bottom: 2%;
+}
+
+.mb-10{
+    margin-bottom:10%;
+}
+
+.pl-18{
+    padding-left: 18%;
+}
+
+.pr-18{
+    padding-right: 18%;
+}
+
+.a-none-decoration{
+	text-decoration: none;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}

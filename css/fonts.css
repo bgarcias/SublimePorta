@@ -1,0 +1,91 @@
+@font-face{
+    font-family: Cabin Sketch, cursive;
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face{
+    font-family: Cabin Sketch, cursive;
+    font-style:normal;
+    font-weight:normal; 
+}
+
+h2{
+    font-family:NexaScript-Free;
+    font-size: 80px;
+    color: 	 #52be80  ;
+    margin: 5% 0 5%;
+}
+h1{
+    font-family: Cabin Sketch, cursive;
+    font-size: 5em;
+    color:  white;
+}
+.tipo_subtitle{
+    font-family:NexaScript-Free;
+    font-size: 40px;
+    color:   #82e0aa ;
+}
+
+.tipo_1-nav{
+	font-family: Cabin Sketch, cursive;
+    font-size: 1.5em;
+    color:  #82e0aa ;
+}
+
+p{
+    font-family:Roboto Bold;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+.tipo_2{
+    font-family: Cabin Sketch, cursive;
+    font-size: 30px;
+    margin-bottom: 0%;
+    color: black;
+}
+
+.tipo_3{
+    font-family: Cabin Sketch, cursive;
+    font-size: 40px;
+    margin-bottom: 0%;
+    color:  #82e0aa ;
+}
+.tipo_4{
+    font-family: Cabin Sketch, cursive;
+    font-size: 20px;
+    margin-bottom: 0%;
+    color:  #82e0aa ;
+}
+
+.tipo_5{
+    font-family: Cabin Sketch, cursive;
+    font-size: 20px;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.tipo_6{
+    font-family:'Oxygen', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.title{
+    font-family:'Oxygen', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.subtitle{
+    font-family:'Oxygen', sans-serif;
+    font-size: 1em;
+    margin-bottom: 0%;
+    letter-spacing: 1px;
+    color: #000;
+}

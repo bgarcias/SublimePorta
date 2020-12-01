@@ -1,0 +1,319 @@
+@media (max-width:768px){
+    .screen-opacity{
+         padding: 3% 1%;
+    }
+    h1{
+    font-size: 3em;
+    }
+}
+
+.home-page{
+    padding: 14%;
+}
+
+body,html,.row{
+	margin:0;
+	padding: 0;  
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color:  #82e0aa;
+}
+
+.navbar-header{
+    background-color: lightgray;
+}
+
+.vertical{
+  height: 50px;
+  padding-left: 2%;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:  #2c3e50  ;
+}
+
+.navbar-inverse{
+  color:lightgray;
+  border-color:lightgray;
+}
+.actions li a{
+    text-decoration: none;
+}
+
+.fa{
+    font-size: 70px;
+    color: white;
+}
+
+.screen-opacity{
+    background-color: rgba(0, 0, 9, 0.7);
+    padding: 6% 2%;  
+    border: 5px white solid;     
+}
+
+.arrow-down {
+  text-align: center;
+  position: relative;
+  z-index: 15;
+  bottom: 55px; 
+}
+
+#intro {
+        background: url("../img/code.jpg");
+        background-size:cover;
+        background-attachment: fixed, fixed;
+        background-position: top, bottom center;
+        background-repeat: no-repeat;
+}
+
+.main.fullscreen {
+    height: auto !important;
+}
+
+.main.style1 {
+    padding: 4em 15px 4em 15px;
+}
+
+    .main.style1 h2 {
+        font-size: 3em;
+        letter-spacing: -3px;
+    }
+
+.main.style2 {
+    padding: 6em 15px 6em 15px;
+}
+
+.container-fluid{
+	margin:0%;
+}
+.navbar {
+    float: right;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    margin: 0;
+    border-radius: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    border: 0px;
+    background-color: transparent;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar-nav {
+    float: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.redes .fa{
+    margin-top: 4%;
+    font-size: 2em;
+}
+
+
+/*::::::about me::::::::::::::::::*/
+
+#about-me{
+    margin-top: 2%;
+    background: url("../img/back2.jpg");
+        background-size:cover;
+        background-attachment: fixed, fixed;
+        background-position: top, bottom center;
+        background-repeat: repeat;
+}
+
+.profile{
+    text-align: center;
+    border-radius: 50%;
+    width: 24%;
+    cursor:pointer;
+}
+.iconos{
+  width: 30%;
+  padding-top: 5%;
+}
+
+.iconos2{
+  width: 54%;
+  margin-bottom: 5%;
+}
+
+.img-responsive{
+  display: inline;
+}
+
+.description{   
+    margin-top:3%;
+}
+
+/*::::::::::::::::::habilidades::::::::::*/
+#habilidades{
+        margin-top: 2%;
+        background: url("../img/back2.jpg");
+        background-size:cover;
+        background-attachment: fixed, fixed;
+        background-position: top, bottom center;
+        background-repeat: repeat;
+
+}
+.progress{
+    width: 100%;
+    text-align: center;
+}
+
+.progress-bar{
+    background-color:##66A366;
+}
+
+
+/*:::::::::::::::::proyectos::::::::*/
+#proyectos{
+        margin-top: 2%;
+        background: url("../img/back2.jpg");
+        background-size:cover;
+        background-attachment: fixed, fixed;
+        background-position: top, bottom center;
+        background-repeat: repeat;
+}
+.resize{
+  height: 280px;
+  border: 5px solid #FFDA71;
+}
+
+.resize-1{
+  height: 280px;
+}
+
+.resize-2{
+    position: relative;
+    top: -235px;
+    height: 189px;
+}
+.device-sreem{
+  background-image: url("../img/freelancer.jpg");
+}
+
+.view {
+  border: 10px solid white;
+  overflow: hidden;
+  cursor: default;
+  position: relative;
+}
+
+.view img {
+    position: relative;
+    width: 100%;
+}
+
+.view-first img {
+  transition: all 0.2s linear; 
+}
+
+.view-first .mask {
+  padding: 10% 15%;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  min-height: 100%;
+  opacity: 0;
+  border:1px solid yellow;
+  background-color: rgba(182, 180, 55, 0.5);
+  transition: all 0.4s ease-in-out; 
+  cursor: pointer; 
+}
+
+.view-first:hover img {
+  transform: scale(1.1); 
+}
+
+.view-first:hover .mask {
+  opacity: 1; 
+}
+
+.prhase {
+  font-weight: 800;
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+
+.size{
+    width: 100%;
+}
+
+.size_2{
+    width: 100%;
+}
+
+/*:::::::::::::::::contacto::::::::*/
+
+#contacto{
+        margin-top: 2px;
+        background: url("../img/back2.jpg");
+        background-size:cover;
+        background-attachment: fixed, fixed;
+        background-position: top, bottom center;
+        background-repeat: repeat;
+}
+.icon-angellist{
+    color: #FF8867;
+    font-size: 0.8em;
+}
+
+#contacto a{
+    color: #000;
+    text-decoration: none;
+}
+
+#contacto a:hover{
+    color: #FFDA71;
+}
+
+/**/
+
+#footer {
+        position: relative;
+        height: 3em;
+        line-height: 3em;
+        margin: 0;
+        background:  #52be80 ;
+        overflow: hidden;
+    }
+
+.menu{
+    text-align: center;
+    color: black;
+}
+
+/**/
+hr{
+    border-color: black;
+    width: 100%;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  /*margin: 20px 10px;*/
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
